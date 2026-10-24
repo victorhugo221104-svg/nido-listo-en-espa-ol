@@ -272,8 +272,7 @@ function Index() {
               "¿Cómo tener ideas sencillas con materiales económicos?",
             ].map((q) => (
               <div key={q} className="rounded-2xl bg-card p-5 text-lg font-bold shadow-soft">
-                <span className="mr-2 text-primary">?</span>
-                {q.replace(/^¿|\?$/g, "") && q}
+                {q}
               </div>
             ))}
           </div>
